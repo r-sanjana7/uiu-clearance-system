@@ -1,0 +1,21 @@
+# Environment / secrets
+.env
+
+# Backend runtime data
+backend/uploads/*
+!backend/uploads/.gitkeep
+!backend/uploads/index.php
+backend/data/*
+!backend/data/.gitkeep
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Local-only credentials and tool settings
+credentials.md
+.puku-cli/
+*.local
